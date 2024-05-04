@@ -76,11 +76,11 @@ Validation:
 """
 
 # ********RoostGPT********
+from __future__ import annotations
 import pytest
 from math import pi
 import numpy as np
 from abc import abstractmethod
-from __future__ import annotations
 from typing import Protocol
 import matplotlib.pyplot as plt
 
