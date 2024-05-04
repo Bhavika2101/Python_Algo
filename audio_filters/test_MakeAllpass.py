@@ -78,12 +78,13 @@ Validation:
 # ********RoostGPT********
 import pytest
 from math import cos, sin, sqrt, tau
-from audio_filters.iir_filter import IIRFilter, make_allpass
+from audio_filters.iir_filter import IIRFilter
+from audio_filters.butterworth_filter import make_allpass
 
 class Test_MakeAllpass:
     @pytest.mark.parametrize("frequency, samplerate, q_factor", [
         (1000, 48000, 1 / sqrt(2)),
-        // TODO: Add more valid parameter combinations
+        # // TODO: Add more valid parameter combinations
     ])
     def test_make_allpass_valid(self, frequency, samplerate, q_factor):
         filt = make_allpass(frequency, samplerate, q_factor)

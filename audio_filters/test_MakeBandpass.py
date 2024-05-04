@@ -78,7 +78,8 @@ Validation:
 # ********RoostGPT********
 import pytest
 from math import sqrt
-from audio_filters.iir_filter import IIRFilter, make_bandpass
+from audio_filters.iir_filter import IIRFilter
+from audio_filters.butterworth_filter import make_bandpass
 
 class Test_MakeBandpass:
     def test_make_bandpass_with_default_q_factor(self):

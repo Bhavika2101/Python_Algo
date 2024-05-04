@@ -85,6 +85,7 @@ from typing import Protocol
 import matplotlib.pyplot as plt
 import numpy as np
 import pytest
+from show_response import get_bounds
 
 class Test_GetBounds:
     

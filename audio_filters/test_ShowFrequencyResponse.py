@@ -81,6 +81,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from audio_filters.iir_filter import IIRFilter
 from typing import Optional
+from show_response import show_frequency_response
 
 class Test_ShowFrequencyResponse:
 

@@ -64,7 +64,8 @@ Validation:
 # ********RoostGPT********
 import pytest
 from math import cos, sin, sqrt, tau
-from audio_filters.iir_filter import IIRFilter, make_peak
+from audio_filters.iir_filter import IIRFilter
+from audio_filters.butterworth_filter import make_peak
 
 class Test_MakePeak:
     def test_make_peak_with_default_q_factor(self):

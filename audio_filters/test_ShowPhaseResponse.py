@@ -75,6 +75,7 @@ from math import pi
 from matplotlib import pyplot as plt
 from audio_filters.iir_filter import IIRFilter
 from matplotlib.testing.decorators import check_figures_equal
+from show_response import show_phase_response
 
 @pytest.mark.regression
 def test_correct_phase_response():
