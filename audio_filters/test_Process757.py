@@ -83,6 +83,7 @@ import numpy as np
 from abc import abstractmethod
 from typing import Protocol
 import matplotlib.pyplot as plt
+from show_response import FilterType
 
 class Test_Process757:
 
@@ -110,7 +111,7 @@ class Test_Process757:
         # Assert
         assert result == expected_result
 
-    @pytest.mark.zero
+    @pytest.mark.boundary
     def test_process_with_zero_sample(self):
         # Arrange
         sample = 0
@@ -122,7 +123,7 @@ class Test_Process757:
         # Assert
         assert result == expected_result
 
-    @pytest.mark.max
+    @pytest.mark.boundary
     def test_process_with_max_float_sample(self):
         # Arrange
         sample = np.finfo(np.float64).max
@@ -134,7 +135,7 @@ class Test_Process757:
         # Assert
         assert result == expected_result
 
-    @pytest.mark.min
+    @pytest.mark.boundary
     def test_process_with_min_float_sample(self):
         # Arrange
         sample = np.finfo(np.float64).min
