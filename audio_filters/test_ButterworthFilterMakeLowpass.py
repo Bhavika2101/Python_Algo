@@ -75,7 +75,7 @@ Validation:
 import pytest
 from math import cos, sin, sqrt, tau
 from audio_filters.iir_filter import IIRFilter
-from butterworth_filter import make_lowpass
+from audio_filters.butterworth_filter import make_lowpass
 
 class Test_ButterworthFilterMakeLowpass:
 

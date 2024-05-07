@@ -85,10 +85,9 @@ from __future__ import annotations
 from abc import abstractmethod
 from math import pi
 from typing import Protocol
-import matplotlib.pyplot as plt
 import numpy as np
 import pytest
-from show_response import process
+from audio_filters.show_response import FilterType, process
 
 class Test_FilterTypeProcess:
     # Test Scenario 1: Validating the process method with positive float value

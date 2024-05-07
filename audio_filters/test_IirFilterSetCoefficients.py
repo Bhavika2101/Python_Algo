@@ -67,7 +67,7 @@ Validation:
 # ********RoostGPT********
 from __future__ import annotations
 import pytest
-from iir_filter import IIRFilter
+from audio_filters.iir_filter import IIRFilter
 
 class Test_IirFilterSetCoefficients:
 

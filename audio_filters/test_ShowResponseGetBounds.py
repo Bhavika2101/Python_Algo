@@ -67,7 +67,7 @@ Validation:
 # ********RoostGPT********
 import pytest
 import numpy as np
-from show_response import get_bounds
+from audio_filters.show_response import get_bounds
 
 class Test_ShowResponseGetBounds:
     

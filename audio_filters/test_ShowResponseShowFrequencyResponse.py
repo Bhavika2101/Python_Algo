@@ -55,7 +55,7 @@ Validation:
 
 # ********RoostGPT********
 import pytest
-from show_response import show_frequency_response
+from audio_filters.show_response import show_frequency_response
 from audio_filters.iir_filter import IIRFilter
 from math import inf
 
