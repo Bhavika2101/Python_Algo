@@ -3,8 +3,7 @@ from __future__ import annotations
 from abc import abstractmethod
 from math import pi
 from typing import Protocol
-
-import matplotlib.pyplot as plt
+from matplotlib import pyplot as plt
 import numpy as np
 
 
