@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title id="head-title">index.html</title>
+      <link href="assets/style.css" rel="stylesheet" type="text/css"/>
+  </head>
+  <body>
+    <h1 id="title">index.html</h1>
+    <p>Report generated on 27-May-2024 at 04:59:45 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a>
+        v4.1.1</p>
+    <div id="environment-header">
+      <h2>Environment</h2>
+    </div>
+    <table id="environment"></table>
+    <!-- TEMPLATES -->
+      <template id="template_environment_row">
+      <tr>
+        <td></td>
+        <td></td>
+      </tr>
+    </template>
+    <template id="template_results-table__body--empty">
+      <tbody class="results-table-row">
+        <tr id="not-found-message">
+          <td colspan="4">No results found. Check the filters.</th>
+        </tr>
+    </template>
+    <template id="template_results-table__tbody">
+      <tbody class="results-table-row">
+        <tr class="collapsible">
+        </tr>
+        <tr class="extras-row">
+          <td class="extra" colspan="4">
+            <div class="extraHTML"></div>
+            <div class="media">
+              <div class="media-container">
+                  <div class="media-container__nav--left"><</div>
+                  <div class="media-container__viewport">
+                    <img src="" />
+                    <video controls>
+                      <source src="" type="video/mp4">
+                    </video>
+                  </div>
+                  <div class="media-container__nav--right">></div>
+                </div>
+                <div class="media__name"></div>
+                <div class="media__counter"></div>
+            </div>
+            <div class="logwrapper">
+              <div class="logexpander"></div>
+              <div class="log"></div>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </template>
+    <!-- END TEMPLATES -->
+    <div class="summary">
+      <div class="summary__data">
+        <h2>Summary</h2>
+        <div class="additional-summary prefix">
+        </div>
+        <p class="run-count">51 tests took 433 ms.</p>
+        <p class="filter">(Un)check the boxes to filter the results.</p>
+        <div class="summary__reload">
+          <div class="summary__reload__button hidden" onclick="location.reload()">
+            <div>There are still tests running. <br />Reload this page to get the latest results!</div>
+          </div>
+        </div>
+        <div class="summary__spacer"></div>
+        <div class="controls">
+          <div class="filters">
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="failed" />
+            <span class="failed">22 Failed,</span>
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="passed" />
+            <span class="passed">29 Passed,</span>
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="skipped" disabled/>
+            <span class="skipped">0 Skipped,</span>
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="xfailed" disabled/>
+            <span class="xfailed">0 Expected failures,</span>
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="xpassed" disabled/>
+            <span class="xpassed">0 Unexpected passes,</span>
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="error" />
+            <span class="error">1 Errors,</span>
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="rerun" disabled/>
+            <span class="rerun">0 Reruns</span>
+          </div>
+          <div class="collapse">
+            <button id="show_all_details">Show all details</button>&nbsp;/&nbsp;<button id="hide_all_details">Hide all details</button>
+          </div>
+        </div>
+      </div>
+      <div class="additional-summary summary">
+      </div>
+      <div class="additional-summary postfix">
+      </div>
+    </div>
+    <table id="results-table">
+      <thead id="results-table-head">
+        <tr>
+          <th class="sortable" data-column-type="result">Result</th>
+          <th class="sortable" data-column-type="testId">Test</th>
+          <th class="sortable" data-column-type="duration">Duration</th>
+          <th>Links</th>
+        </tr>
+      </thead>
+    </table>
+  </body>
+  <footer>
+    <div id="data-container" data-jsonblob="{&#34;environment&#34;: {&#34;Python&#34;: &#34;3.11.8&#34;, &#34;Platform&#34;: &#34;Linux-5.15.0-1037-gcp-x86_64-with&#34;, &#34;Packages&#34;: {&#34;pytest&#34;: &#34;8.2.1&#34;, &#34;pluggy&#34;: &#34;1.5.0&#34;}, &#34;Plugins&#34;: {&#34;metadata&#34;: &#34;3.1.1&#34;, &#34;html&#34;: &#34;4.1.1&#34;}}, &#34;tests&#34;: {&#34;audio_filters/test_FilterTypeProcess.py&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Error&#34;, &#34;testId&#34;: &#34;audio_filters/test_FilterTypeProcess.py::collect&#34;, &#34;duration&#34;: &#34;0 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Error&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;audio_filters/test_FilterTypeProcess.py::collect&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;0 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;/root/.local/share/virtualenvs/audio_filters-6QV1-3RA/lib/python3.11/site-packages/_pytest/python.py:492: in importtestmodule\n    mod = import_path(\n/root/.local/share/virtualenvs/audio_filters-6QV1-3RA/lib/python3.11/site-packages/_pytest/pathlib.py:591: in import_path\n    importlib.import_module(module_name)\n/usr/lib/python3.11/importlib/__init__.py:126: in import_module\n    return _bootstrap._gcd_import(name[level:], package, level)\n&amp;lt;frozen importlib._bootstrap&amp;gt;:1204: in _gcd_import\n    ???\n&amp;lt;frozen importlib._bootstrap&amp;gt;:1176: in _find_and_load\n    ???\n&amp;lt;frozen importlib._bootstrap&amp;gt;:1147: in _find_and_load_unlocked\n    ???\n&amp;lt;frozen importlib._bootstrap&amp;gt;:690: in _load_unlocked\n    ???\n/root/.local/share/virtualenvs/audio_filters-6QV1-3RA/lib/python3.11/site-packages/_pytest/assertion/rewrite.py:169: in exec_module\n    source_stat, co = _rewrite_test(fn, self.config)\n/root/.local/share/virtualenvs/audio_filters-6QV1-3RA/lib/python3.11/site-packages/_pytest/assertion/rewrite.py:349: in _rewrite_test\n    tree = ast.parse(source, filename=strfn)\n/usr/lib/python3.11/ast.py:50: in parse\n    return compile(source, filename, mode, flags,\nE     File &amp;quot;/var/tmp/Roost/RoostGPT/python-unit--test/52c53eb2-76d1-47e3-9216-28ea43938561/source/Python_Algo/audio_filters/test_FilterTypeProcess.py&amp;quot;, line 61\nE       from audio_filters.show_response import FilterType.process\nE                                                         ^\nE   SyntaxError: invalid syntax\n&#34;}], &#34;audio_filters/test_ButterworthFilterMakeAllpass.py::Test_ButterworthFilterMakeAllpass::test_make_allpass_with_valid_params&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;audio_filters/test_ButterworthFilterMakeAllpass.py::Test_ButterworthFilterMakeAllpass::test_make_allpass_with_valid_params&#34;, &#34;duration&#34;: &#34;1 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;audio_filters/test_ButterworthFilterMakeAllpass.py::Test_ButterworthFilterMakeAllpass::test_make_allpass_with_valid_params&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;1 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;No log output captured.&#34;}], &#34;audio_filters/test_ButterworthFilterMakeAllpass.py::Test_ButterworthFilterMakeAllpass::test_make_allpass_with_extreme_frequency&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;audio_filters/test_ButterworthFilterMakeAllpass.py::Test_ButterworthFilterMakeAllpass::test_make_allpass_with_extreme_frequency&#34;, &#34;duration&#34;: &#34;1 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;audio_filters/test_ButterworthFilterMakeAllpass.py::Test_ButterworthFilterMakeAllpass::test_make_allpass_with_extreme_frequency&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;1 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;No log output captured.&#34;}], &#34;audio_filters/test_ButterworthFilterMakeAllpass.py::Test_ButterworthFilterMakeAllpass::test_make_allpass_with_extreme_samplerate&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;audio_filters/test_ButterworthFilterMakeAllpass.py::Test_ButterworthFilterMakeAllpass::test_make_allpass_with_extreme_samplerate&#34;, &#34;duration&#34;: &#34;1 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;audio_filters/test_ButterworthFilterMakeAllpass.py::Test_ButterworthFilterMakeAllpass::test_make_allpass_with_extreme_samplerate&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;1 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;No log output captured.&#34;}], &#34;audio_filters/test_ButterworthFilterMakeAllpass.py::Test_ButterworthFilterMakeAllpass::test_make_allpass_with_extreme_q_factor&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;audio_filters/test_ButterworthFilterMakeAllpass.py::Test_ButterworthFilterMakeAllpass::test_make_allpass_with_extreme_q_factor&#34;, &#34;duration&#34;: &#34;1 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;audio_filters/test_ButterworthFilterMakeAllpass.py::Test_ButterworthFilterMakeAllpass::test_make_allpass_with_extreme_q_factor&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;1 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;No log output captured.&#34;}], &#34;audio_filters/test_ButterworthFilterMakeBandpass.py::Test_ButterworthFilterMakeBandpass::test_bandpass_filter_initialization&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;audio_filters/test_ButterworthFilterMakeBandpass.py::Test_ButterworthFilterMakeBandpass::test_bandpass_filter_initialization&#34;, &#34;duration&#34;: &#34;1 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;audio_filters/test_ButterworthFilterMakeBandpass.py::Test_ButterworthFilterMakeBandpass::test_bandpass_filter_initialization&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;1 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;No log output captured.&#34;}], &#34;audio_filters/test_ButterworthFilterMakeBandpass.py::Test_ButterworthFilterMakeBandpass::test_bandpass_filter_zero_input&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;audio_filters/test_ButterworthFilterMakeBandpass.py::Test_ButterworthFilterMakeBandpass::test_bandpass_filter_zero_input&#34;, &#34;duration&#34;: &#34;1 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;audio_filters/test_ButterworthFilterMakeBandpass.py::Test_ButterworthFilterMakeBandpass::test_bandpass_filter_zero_input&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;1 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;No log output captured.&#34;}], &#34;audio_filters/test_ButterworthFilterMakeBandpass.py::Test_ButterworthFilterMakeBandpass::test_bandpass_filter_non_zero_input&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;audio_filters/test_ButterworthFilterMakeBandpass.py::Test_ButterworthFilterMakeBandpass::test_bandpass_filter_non_zero_input&#34;, &#34;duration&#34;: &#34;1 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;audio_filters/test_ButterworthFilterMakeBandpass.py::Test_ButterworthFilterMakeBandpass::test_bandpass_filter_non_zero_input&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;1 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;No log output captured.&#34;}], &#34;audio_filters/test_ButterworthFilterMakeBandpass.py::Test_ButterworthFilterMakeBandpass::test_bandpass_filter_different_q_factors&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Failed&#34;, &#34;testId&#34;: &#34;audio_filters/test_ButterworthFilterMakeBandpass.py::Test_ButterworthFilterMakeBandpass::test_bandpass_filter_different_q_factors&#34;, &#34;duration&#34;: &#34;1 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Failed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;audio_filters/test_ButterworthFilterMakeBandpass.py::Test_ButterworthFilterMakeBandpass::test_bandpass_filter_different_q_factors&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;1 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;self = &amp;lt;audio_filters.test_ButterworthFilterMakeBandpass.Test_ButterworthFilterMakeBandpass object at 0x7f333187b6d0&amp;gt;\n\n    @pytest.mark.regression\n    def test_bandpass_filter_different_q_factors(self):\n        filter1 = make_bandpass(1000, 48000, 1)\n        filter2 = make_bandpass(1000, 48000, 2)\n        assert filter1.a_coeffs != filter2.a_coeffs\n&amp;gt;       assert filter1.b_coeffs != filter2.b_coeffs\nE       assert [0.06526309611002579, 0, -0.06526309611002579] != [0.06526309611002579, 0, -0.06526309611002579]\nE        +  where [0.06526309611002579, 0, -0.06526309611002579] = &amp;lt;audio_filters.iir_filter.IIRFilter object at 0x7f33267d2250&amp;gt;.b_coeffs\nE        +  and   [0.06526309611002579, 0, -0.06526309611002579] = &amp;lt;audio_filters.iir_filter.IIRFilter object at 0x7f33267d22d0&amp;gt;.b_coeffs\n\ntest_ButterworthFilterMakeBandpass.py:108: AssertionError\n&#34;}], &#34;audio_filters/test_ButterworthFilterMakeBandpass.py::Test_ButterworthFilterMakeBandpass::test_bandpass_filter_invalid_coefficients&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;audio_filters/test_ButterworthFilterMakeBandpass.py::Test_ButterworthFilterMakeBandpass::test_bandpass_filter_invalid_coefficients&#34;, &#34;duration&#34;: &#34;1 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;audio_filters/test_ButterworthFilterMakeBandpass.py::Test_ButterworthFilterMakeBandpass::test_bandpass_filter_invalid_coefficients&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;1 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;No log output captured.&#34;}], &#34;audio_filters/test_ButterworthFilterMakeHighpass.py::Test_ButterworthFilterMakeHighpass::test_make_highpass_with_valid_params&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;audio_filters/test_ButterworthFilterMakeHighpass.py::Test_ButterworthFilterMakeHighpass::test_make_highpass_with_valid_params&#34;, &#34;duration&#34;: &#34;1 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;audio_filters/test_ButterworthFilterMakeHighpass.py::Test_ButterworthFilterMakeHighpass::test_make_highpass_with_valid_params&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;1 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;No log output captured.&#34;}], &#34;audio_filters/test_ButterworthFilterMakeHighpass.py::Test_ButterworthFilterMakeHighpass::test_make_highpass_with_zero_frequency&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;audio_filters/test_ButterworthFilterMakeHighpass.py::Test_ButterworthFilterMakeHighpass::test_make_highpass_with_zero_frequency&#34;, &#34;duration&#34;: &#34;1 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;audio_filters/test_ButterworthFilterMakeHighpass.py::Test_ButterworthFilterMakeHighpass::test_make_highpass_with_zero_frequency&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;1 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;No log output captured.&#34;}], &#34;audio_filters/test_ButterworthFilterMakeHighpass.py::Test_ButterworthFilterMakeHighpass::test_make_highpass_with_negative_frequency&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Failed&#34;, &#34;testId&#34;: &#34;audio_filters/test_ButterworthFilterMakeHighpass.py::Test_ButterworthFilterMakeHighpass::test_make_highpass_with_negative_frequency&#34;, &#34;duration&#34;: &#34;1 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Failed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;audio_filters/test_ButterworthFilterMakeHighpass.py::Test_ButterworthFilterMakeHighpass::test_make_highpass_with_negative_frequency&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;1 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;self = &amp;lt;audio_filters.test_ButterworthFilterMakeHighpass.Test_ButterworthFilterMakeHighpass object at 0x7f333189ec50&amp;gt;\n\n    def test_make_highpass_with_negative_frequency(self):\n        # Arrange\n        frequency = -1\n        samplerate = 48000\n        q_factor = 1 / sqrt(2)\n    \n        # Act &amp;amp; Assert\n&amp;gt;       with pytest.raises(ValueError):\nE       Failed: DID NOT RAISE &amp;lt;class &amp;#x27;ValueError&amp;#x27;&amp;gt;\n\ntest_ButterworthFilterMakeHighpass.py:107: Failed\n&#34;}], &#34;audio_filters/test_ButterworthFilterMakeHighpass.py::Test_ButterworthFilterMakeHighpass::test_make_highpass_with_frequency_greater_than_samplerate&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Failed&#34;, &#34;testId&#34;: &#34;audio_filters/test_ButterworthFilterMakeHighpass.py::Test_ButterworthFilterMakeHighpass::test_make_highpass_with_frequency_greater_than_samplerate&#34;, &#34;duration&#34;: &#34;1 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Failed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;audio_filters/test_ButterworthFilterMakeHighpass.py::Test_ButterworthFilterMakeHighpass::test_make_highpass_with_frequency_greater_than_samplerate&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;1 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;self = &amp;lt;audio_filters.test_ButterworthFilterMakeHighpass.Test_ButterworthFilterMakeHighpass object at 0x7f333189ccd0&amp;gt;\n\n    def test_make_highpass_with_frequency_greater_than_samplerate(self):\n        # Arrange\n        frequency = 50000\n        samplerate = 48000\n        q_factor = 1 / sqrt(2)\n    \n        # Act &amp;amp; Assert\n&amp;gt;       with pytest.raises(ValueError):\nE       Failed: DID NOT RAISE &amp;lt;class &amp;#x27;ValueError&amp;#x27;&amp;gt;\n\ntest_ButterworthFilterMakeHighpass.py:117: Failed\n&#34;}], &#34;audio_filters/test_ButterworthFilterMakeHighpass.py::Test_ButterworthFilterMakeHighpass::test_make_highpass_with_zero_q_factor&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Failed&#34;, &#34;testId&#34;: &#34;audio_filters/test_ButterworthFilterMakeHighpass.py::Test_ButterworthFilterMakeHighpass::test_make_highpass_with_zero_q_factor&#34;, &#34;duration&#34;: &#34;1 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Failed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;audio_filters/test_ButterworthFilterMakeHighpass.py::Test_ButterworthFilterMakeHighpass::test_make_highpass_with_zero_q_factor&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;1 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;self = &amp;lt;audio_filters.test_ButterworthFilterMakeHighpass.Test_ButterworthFilterMakeHighpass object at 0x7f333189c650&amp;gt;\n\n    def test_make_highpass_with_zero_q_factor(self):\n        # Arrange\n        frequency = 1000\n        samplerate = 48000\n        q_factor = 0\n    \n        # Act &amp;amp; Assert\n        with pytest.raises(ValueError):\n&amp;gt;           make_highpass(frequency, samplerate, q_factor)\n\ntest_ButterworthFilterMakeHighpass.py:128: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nfrequency = 1000, samplerate = 48000, q_factor = 0\n\n    def make_highpass(\n        frequency: int,\n        samplerate: int,\n        q_factor: float = 1 / sqrt(2),\n    ) -&amp;gt; IIRFilter:\n        &amp;quot;&amp;quot;&amp;quot;\n        Creates a high-pass filter\n    \n        &amp;gt;&amp;gt;&amp;gt; filter = make_highpass(1000, 48000)\n        &amp;gt;&amp;gt;&amp;gt; filter.a_coeffs + filter.b_coeffs  # doctest: +NORMALIZE_WHITESPACE\n        [1.0922959556412573, -1.9828897227476208, 0.9077040443587427, 0.9957224306869052,\n         -1.9914448613738105, 0.9957224306869052]\n        &amp;quot;&amp;quot;&amp;quot;\n        w0 = tau * frequency / samplerate\n        _sin = sin(w0)\n        _cos = cos(w0)\n&amp;gt;       alpha = _sin / (2 * q_factor)\nE       ZeroDivisionError: float division by zero\n\nbutterworth_filter.py:59: ZeroDivisionError\n&#34;}], &#34;audio_filters/test_ButterworthFilterMakeHighshelf.py::Test_ButterworthFilterMakeHighshelf::test_highshelf_filter_creation&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;audio_filters/test_ButterworthFilterMakeHighshelf.py::Test_ButterworthFilterMakeHighshelf::test_highshelf_filter_creation&#34;, &#34;duration&#34;: &#34;1 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;audio_filters/test_ButterworthFilterMakeHighshelf.py::Test_ButterworthFilterMakeHighshelf::test_highshelf_filter_creation&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;1 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;No log output captured.&#34;}], &#34;audio_filters/test_ButterworthFilterMakeHighshelf.py::Test_ButterworthFilterMakeHighshelf::test_highshelf_filter_zero_gain&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Failed&#34;, &#34;testId&#34;: &#34;audio_filters/test_ButterworthFilterMakeHighshelf.py::Test_ButterworthFilterMakeHighshelf::test_highshelf_filter_zero_gain&#34;, &#34;duration&#34;: &#34;1 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Failed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;audio_filters/test_ButterworthFilterMakeHighshelf.py::Test_ButterworthFilterMakeHighshelf::test_highshelf_filter_zero_gain&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;1 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;self = &amp;lt;audio_filters.test_ButterworthFilterMakeHighshelf.Test_ButterworthFilterMakeHighshelf object at 0x7f333188dd10&amp;gt;\n\n    @pytest.mark.regression\n    @pytest.mark.negative\n    @pytest.mark.valid\n    def test_highshelf_filter_zero_gain(self):\n        # Arrange\n        frequency = 1000\n        samplerate = 48000\n        gain_db = 0\n        q_factor = 1 / sqrt(2)\n    \n        # Act\n        filter = make_highshelf(frequency, samplerate, gain_db, q_factor)\n    \n        # Assert\n        # TODO: Replace the expected values with the correct ones for a filter with zero gain\n&amp;gt;       assert filter.a_coeffs + filter.b_coeffs == []\nE       assert [2.1845919112825145, -3.9657794454952415, 1.8154080887174855, 2.1845919112825145, -3.9657794454952415, 1.8154080887174855] == []\nE         \nE         Left contains 6 more items, first extra item: 2.1845919112825145\nE         \nE         Full diff:\nE         - []\nE         + [\nE         +     2.1845919112825145,\nE         +     -3.9657794454952415,\nE         +     1.8154080887174855,\nE         +     2.1845919112825145,\nE         +     -3.9657794454952415,\nE         +     1.8154080887174855,\nE         + ]\n\ntest_ButterworthFilterMakeHighshelf.py:105: AssertionError\n&#34;}], &#34;audio_filters/test_ButterworthFilterMakeHighshelf.py::Test_ButterworthFilterMakeHighshelf::test_highshelf_filter_negative_gain&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Failed&#34;, &#34;testId&#34;: &#34;audio_filters/test_ButterworthFilterMakeHighshelf.py::Test_ButterworthFilterMakeHighshelf::test_highshelf_filter_negative_gain&#34;, &#34;duration&#34;: &#34;1 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Failed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;audio_filters/test_ButterworthFilterMakeHighshelf.py::Test_ButterworthFilterMakeHighshelf::test_highshelf_filter_negative_gain&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;1 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;self = &amp;lt;audio_filters.test_ButterworthFilterMakeHighshelf.Test_ButterworthFilterMakeHighshelf object at 0x7f333188e610&amp;gt;\n\n    @pytest.mark.regression\n    @pytest.mark.negative\n    @pytest.mark.valid\n    def test_highshelf_filter_negative_gain(self):\n        # Arrange\n        frequency = 1000\n        samplerate = 48000\n        gain_db = -6\n        q_factor = 1 / sqrt(2)\n    \n        # Act\n        filter = make_highshelf(frequency, samplerate, gain_db, q_factor)\n    \n        # Assert\n        # TODO: Replace the expected values with the correct ones for a filter with negative gain\n&amp;gt;       assert filter.a_coeffs + filter.b_coeffs == []\nE       assert [2.152816173039152, -3.970776574097155, 1.8421866983589346, 1.1140977288710792, -1.9840603333359077, 0.8941889017657599] == []\nE         \nE         Left contains 6 more items, first extra item: 2.152816173039152\nE         \nE         Full diff:\nE         - []\nE         + [\nE         +     2.152816173039152,\nE         +     -3.970776574097155,\nE         +     1.8421866983589346,\nE         +     1.1140977288710792,\nE         +     -1.9840603333359077,\nE         +     0.8941889017657599,\nE         + ]\n\ntest_ButterworthFilterMakeHighshelf.py:122: AssertionError\n&#34;}], &#34;audio_filters/test_ButterworthFilterMakeHighshelf.py::Test_ButterworthFilterMakeHighshelf::test_highshelf_filter_high_frequency&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Failed&#34;, &#34;testId&#34;: &#34;audio_filters/test_ButterworthFilterMakeHighshelf.py::Test_ButterworthFilterMakeHighshelf::test_highshelf_filter_high_frequency&#34;, &#34;duration&#34;: &#34;1 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Failed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;audio_filters/test_ButterworthFilterMakeHighshelf.py::Test_ButterworthFilterMakeHighshelf::test_highshelf_filter_high_frequency&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;1 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;self = &amp;lt;audio_filters.test_ButterworthFilterMakeHighshelf.Test_ButterworthFilterMakeHighshelf object at 0x7f333188d850&amp;gt;\n\n    @pytest.mark.regression\n    @pytest.mark.negative\n    @pytest.mark.valid\n    def test_highshelf_filter_high_frequency(self):\n        # Arrange\n        frequency = 10000\n        samplerate = 48000\n        gain_db = 6\n        q_factor = 1 / sqrt(2)\n    \n        # Act\n        filter = make_highshelf(frequency, samplerate, gain_db, q_factor)\n    \n        # Assert\n        # TODO: Replace the expected values with the correct ones for a filter with high frequency\n&amp;gt;       assert filter.a_coeffs + filter.b_coeffs == []\nE       assert [3.929289206387913, -0.42374623790097377, 0.6822407361211964, 5.8519090649410135, -2.9294565518122733, 1.2653311914793952] == []\nE         \nE         Left contains 6 more items, first extra item: 3.929289206387913\nE         \nE         Full diff:\nE         - []\nE         + [\nE         +     3.929289206387913,\nE         +     -0.42374623790097377,\nE         +     0.6822407361211964,\nE         +     5.8519090649410135,\nE         +     -2.9294565518122733,\nE         +     1.2653311914793952,\nE         + ]\n\ntest_ButterworthFilterMakeHighshelf.py:139: AssertionError\n&#34;}], &#34;audio_filters/test_ButterworthFilterMakeHighshelf.py::Test_ButterworthFilterMakeHighshelf::test_highshelf_filter_invalid_q_factor&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Failed&#34;, &#34;testId&#34;: &#34;audio_filters/test_ButterworthFilterMakeHighshelf.py::Test_ButterworthFilterMakeHighshelf::test_highshelf_filter_invalid_q_factor&#34;, &#34;duration&#34;: &#34;1 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Failed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;audio_filters/test_ButterworthFilterMakeHighshelf.py::Test_ButterworthFilterMakeHighshelf::test_highshelf_filter_invalid_q_factor&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;1 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;self = &amp;lt;audio_filters.test_ButterworthFilterMakeHighshelf.Test_ButterworthFilterMakeHighshelf object at 0x7f333188d890&amp;gt;\n\n    @pytest.mark.regression\n    @pytest.mark.negative\n    @pytest.mark.invalid\n    def test_highshelf_filter_invalid_q_factor(self):\n        # Arrange\n        frequency = 1000\n        samplerate = 48000\n        gain_db = 6\n        q_factor = -1 / sqrt(2)\n    \n        # Act &amp;amp; Assert\n&amp;gt;       with pytest.raises(Exception):\nE       Failed: DID NOT RAISE &amp;lt;class &amp;#x27;Exception&amp;#x27;&amp;gt;\n\ntest_ButterworthFilterMakeHighshelf.py:152: Failed\n&#34;}], &#34;audio_filters/test_ButterworthFilterMakeLowpass.py::Test_ButterworthFilterMakeLowpass::test_lowpass_filter_creation_valid_parameters&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;audio_filters/test_ButterworthFilterMakeLowpass.py::Test_ButterworthFilterMakeLowpass::test_lowpass_filter_creation_valid_parameters&#34;, &#34;duration&#34;: &#34;1 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;audio_filters/test_ButterworthFilterMakeLowpass.py::Test_ButterworthFilterMakeLowpass::test_lowpass_filter_creation_valid_parameters&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;1 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;No log output captured.&#34;}], &#34;audio_filters/test_ButterworthFilterMakeLowpass.py::Test_ButterworthFilterMakeLowpass::test_lowpass_filter_creation_zero_frequency&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Failed&#34;, &#34;testId&#34;: &#34;audio_filters/test_ButterworthFilterMakeLowpass.py::Test_ButterworthFilterMakeLowpass::test_lowpass_filter_creation_zero_frequency&#34;, &#34;duration&#34;: &#34;1 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Failed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;audio_filters/test_ButterworthFilterMakeLowpass.py::Test_ButterworthFilterMakeLowpass::test_lowpass_filter_creation_zero_frequency&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;1 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;self = &amp;lt;audio_filters.test_ButterworthFilterMakeLowpass.Test_ButterworthFilterMakeLowpass object at 0x7f33318b15d0&amp;gt;\n\n    @pytest.mark.negative\n    def test_lowpass_filter_creation_zero_frequency(self):\n        frequency = 0\n        samplerate = 48000\n        q_factor = 1 / sqrt(2)\n&amp;gt;       with pytest.raises(ValueError):\nE       Failed: DID NOT RAISE &amp;lt;class &amp;#x27;ValueError&amp;#x27;&amp;gt;\n\ntest_ButterworthFilterMakeLowpass.py:77: Failed\n&#34;}], &#34;audio_filters/test_ButterworthFilterMakeLowpass.py::Test_ButterworthFilterMakeLowpass::test_lowpass_filter_creation_negative_q_factor&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Failed&#34;, &#34;testId&#34;: &#34;audio_filters/test_ButterworthFilterMakeLowpass.py::Test_ButterworthFilterMakeLowpass::test_lowpass_filter_creation_negative_q_factor&#34;, &#34;duration&#34;: &#34;1 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Failed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;audio_filters/test_ButterworthFilterMakeLowpass.py::Test_ButterworthFilterMakeLowpass::test_lowpass_filter_creation_negative_q_factor&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;1 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;self = &amp;lt;audio_filters.test_ButterworthFilterMakeLowpass.Test_ButterworthFilterMakeLowpass object at 0x7f33318b2b10&amp;gt;\n\n    @pytest.mark.negative\n    def test_lowpass_filter_creation_negative_q_factor(self):\n        frequency = 1000\n        samplerate = 48000\n        q_factor = -1 / sqrt(2)\n&amp;gt;       with pytest.raises(ValueError):\nE       Failed: DID NOT RAISE &amp;lt;class &amp;#x27;ValueError&amp;#x27;&amp;gt;\n\ntest_ButterworthFilterMakeLowpass.py:85: Failed\n&#34;}], &#34;audio_filters/test_ButterworthFilterMakeLowpass.py::Test_ButterworthFilterMakeLowpass::test_lowpass_filter_creation_samplerate_less_than_twice_frequency&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Failed&#34;, &#34;testId&#34;: &#34;audio_filters/test_ButterworthFilterMakeLowpass.py::Test_ButterworthFilterMakeLowpass::test_lowpass_filter_creation_samplerate_less_than_twice_frequency&#34;, &#34;duration&#34;: &#34;1 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Failed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;audio_filters/test_ButterworthFilterMakeLowpass.py::Test_ButterworthFilterMakeLowpass::test_lowpass_filter_creation_samplerate_less_than_twice_frequency&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;1 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;self = &amp;lt;audio_filters.test_ButterworthFilterMakeLowpass.Test_ButterworthFilterMakeLowpass object at 0x7f33318b2b90&amp;gt;\n\n    @pytest.mark.negative\n    def test_lowpass_filter_creation_samplerate_less_than_twice_frequency(self):\n        frequency = 1000\n        samplerate = 1500\n        q_factor = 1 / sqrt(2)\n&amp;gt;       with pytest.raises(ValueError):\nE       Failed: DID NOT RAISE &amp;lt;class &amp;#x27;ValueError&amp;#x27;&amp;gt;\n\ntest_ButterworthFilterMakeLowpass.py:93: Failed\n&#34;}], &#34;audio_filters/test_ButterworthFilterMakeLowshelf.py::Test_ButterworthFilterMakeLowshelf::test_make_lowshelf_with_valid_parameters&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;audio_filters/test_ButterworthFilterMakeLowshelf.py::Test_ButterworthFilterMakeLowshelf::test_make_lowshelf_with_valid_parameters&#34;, &#34;duration&#34;: &#34;1 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;audio_filters/test_ButterworthFilterMakeLowshelf.py::Test_ButterworthFilterMakeLowshelf::test_make_lowshelf_with_valid_parameters&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;1 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;No log output captured.&#34;}], &#34;audio_filters/test_ButterworthFilterMakeLowshelf.py::Test_ButterworthFilterMakeLowshelf::test_make_lowshelf_with_zero_gain&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Failed&#34;, &#34;testId&#34;: &#34;audio_filters/test_ButterworthFilterMakeLowshelf.py::Test_ButterworthFilterMakeLowshelf::test_make_lowshelf_with_zero_gain&#34;, &#34;duration&#34;: &#34;1 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Failed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;audio_filters/test_ButterworthFilterMakeLowshelf.py::Test_ButterworthFilterMakeLowshelf::test_make_lowshelf_with_zero_gain&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;1 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;self = &amp;lt;audio_filters.test_ButterworthFilterMakeLowshelf.Test_ButterworthFilterMakeLowshelf object at 0x7f33318e0990&amp;gt;\n\n    @pytest.mark.regression\n    @pytest.mark.positive\n    def test_make_lowshelf_with_zero_gain(self):\n        # Arrange\n        frequency = 1000\n        samplerate = 48000\n        gain_db = 0\n        q_factor = 1 / sqrt(2)\n    \n        # Act\n        filter = make_lowshelf(frequency, samplerate, gain_db, q_factor)\n    \n        # Assert\n        assert isinstance(filter, IIRFilter)\n        # TODO: Replace the expected a_coeffs and b_coeffs with the correct values\n&amp;gt;       assert filter.a_coeffs + filter.b_coeffs == [1.0, 0.0, 0.0, 1.0, 0.0, 0.0]\nE       assert [2.1845919112825145, -3.9657794454952415, 1.8154080887174855, 2.1845919112825145, -3.9657794454952415, 1.8154080887174855] == [1.0, 0.0, 0.0, 1.0, 0.0, 0.0]\nE         \nE         At index 0 diff: 2.1845919112825145 != 1.0\nE         \nE         Full diff:\nE           [\nE         -     1.0,\nE         -     0.0,\nE         -     0.0,\nE         -     1.0,\nE         -     0.0,\nE         -     0.0,\nE         +     2.1845919112825145,\nE         +     -3.9657794454952415,\nE         +     1.8154080887174855,\nE         +     2.1845919112825145,\nE         +     -3.9657794454952415,\nE         +     1.8154080887174855,\nE           ]\n\ntest_ButterworthFilterMakeLowshelf.py:93: AssertionError\n&#34;}], &#34;audio_filters/test_ButterworthFilterMakeLowshelf.py::Test_ButterworthFilterMakeLowshelf::test_make_lowshelf_with_negative_gain&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Failed&#34;, &#34;testId&#34;: &#34;audio_filters/test_ButterworthFilterMakeLowshelf.py::Test_ButterworthFilterMakeLowshelf::test_make_lowshelf_with_negative_gain&#34;, &#34;duration&#34;: &#34;1 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Failed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;audio_filters/test_ButterworthFilterMakeLowshelf.py::Test_ButterworthFilterMakeLowshelf::test_make_lowshelf_with_negative_gain&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;1 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;self = &amp;lt;audio_filters.test_ButterworthFilterMakeLowshelf.Test_ButterworthFilterMakeLowshelf object at 0x7f33318e10d0&amp;gt;\n\n    @pytest.mark.regression\n    @pytest.mark.negative\n    def test_make_lowshelf_with_negative_gain(self):\n        # Arrange\n        frequency = 1000\n        samplerate = 48000\n        gain_db = -6\n        q_factor = 1 / sqrt(2)\n    \n        # Act\n        filter = make_lowshelf(frequency, samplerate, gain_db, q_factor)\n    \n        # Assert\n        assert isinstance(filter, IIRFilter)\n        # TODO: Replace the expected a_coeffs and b_coeffs with the correct values\n&amp;gt;       assert filter.a_coeffs + filter.b_coeffs == [1.0, 0.0, 0.0, 1.0, 0.0, 0.0]\nE       assert [1.5737048704093413, -2.8025597116337067, 1.2630753957291239, 1.5240771342570605, -2.8110945363633704, 1.3041683071517411] == [1.0, 0.0, 0.0, 1.0, 0.0, 0.0]\nE         \nE         At index 0 diff: 1.5737048704093413 != 1.0\nE         \nE         Full diff:\nE           [\nE         -     1.0,\nE         -     0.0,\nE         -     0.0,\nE         -     1.0,\nE         -     0.0,\nE         -     0.0,\nE         +     1.5737048704093413,\nE         +     -2.8025597116337067,\nE         +     1.2630753957291239,\nE         +     1.5240771342570605,\nE         +     -2.8110945363633704,\nE         +     1.3041683071517411,\nE           ]\n\ntest_ButterworthFilterMakeLowshelf.py:110: AssertionError\n&#34;}], &#34;audio_filters/test_ButterworthFilterMakeLowshelf.py::Test_ButterworthFilterMakeLowshelf::test_make_lowshelf_with_frequency_equal_to_samplerate&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Failed&#34;, &#34;testId&#34;: &#34;audio_filters/test_ButterworthFilterMakeLowshelf.py::Test_ButterworthFilterMakeLowshelf::test_make_lowshelf_with_frequency_equal_to_samplerate&#34;, &#34;duration&#34;: &#34;1 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Failed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;audio_filters/test_ButterworthFilterMakeLowshelf.py::Test_ButterworthFilterMakeLowshelf::test_make_lowshelf_with_frequency_equal_to_samplerate&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;1 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;self = &amp;lt;audio_filters.test_ButterworthFilterMakeLowshelf.Test_ButterworthFilterMakeLowshelf object at 0x7f33318e1450&amp;gt;\n\n    @pytest.mark.regression\n    @pytest.mark.positive\n    def test_make_lowshelf_with_frequency_equal_to_samplerate(self):\n        # Arrange\n        frequency = 48000\n        samplerate = 48000\n        gain_db = 6\n        q_factor = 1 / sqrt(2)\n    \n        # Act\n        filter = make_lowshelf(frequency, samplerate, gain_db, q_factor)\n    \n        # Assert\n        assert isinstance(filter, IIRFilter)\n        # TODO: Replace the expected a_coeffs and b_coeffs with the correct values\n&amp;gt;       assert filter.a_coeffs + filter.b_coeffs == [1.0, 0.0, 0.0, 1.0, 0.0, 0.0]\nE       assert [2.8250750892455083, -5.6501501784910175, 2.825075089245509, 2.8250750892455083, -5.6501501784910175, 2.825075089245509] == [1.0, 0.0, 0.0, 1.0, 0.0, 0.0]\nE         \nE         At index 0 diff: 2.8250750892455083 != 1.0\nE         \nE         Full diff:\nE           [\nE         -     1.0,\nE         -     0.0,\nE         -     0.0,\nE         -     1.0,\nE         -     0.0,\nE         -     0.0,\nE         +     2.8250750892455083,\nE         +     -5.6501501784910175,\nE         +     2.825075089245509,\nE         +     2.8250750892455083,\nE         +     -5.6501501784910175,\nE         +     2.825075089245509,\nE           ]\n\ntest_ButterworthFilterMakeLowshelf.py:127: AssertionError\n&#34;}], &#34;audio_filters/test_ButterworthFilterMakePeak.py::Test_ButterworthFilterMakePeak::test_make_peak_with_valid_parameters&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;audio_filters/test_ButterworthFilterMakePeak.py::Test_ButterworthFilterMakePeak::test_make_peak_with_valid_parameters&#34;, &#34;duration&#34;: &#34;1 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;audio_filters/test_ButterworthFilterMakePeak.py::Test_ButterworthFilterMakePeak::test_make_peak_with_valid_parameters&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;1 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;No log output captured.&#34;}], &#34;audio_filters/test_ButterworthFilterMakePeak.py::Test_ButterworthFilterMakePeak::test_make_peak_with_zero_gain&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Failed&#34;, &#34;testId&#34;: &#34;audio_filters/test_ButterworthFilterMakePeak.py::Test_ButterworthFilterMakePeak::test_make_peak_with_zero_gain&#34;, &#34;duration&#34;: &#34;1 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Failed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;audio_filters/test_ButterworthFilterMakePeak.py::Test_ButterworthFilterMakePeak::test_make_peak_with_zero_gain&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;1 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;self = &amp;lt;audio_filters.test_ButterworthFilterMakePeak.Test_ButterworthFilterMakePeak object at 0x7f333186f150&amp;gt;\n\n    @pytest.mark.regression\n    def test_make_peak_with_zero_gain(self):\n        # Arrange\n        frequency = 1000\n        samplerate = 48000\n        gain_db = 0\n        q_factor = 1 / sqrt(2)\n        # Act\n        filter = make_peak(frequency, samplerate, gain_db, q_factor)\n        # Assert\n        assert isinstance(filter, IIRFilter)\n&amp;gt;       assert filter.a_coeffs[0] == 1\nE       assert 1.0922959556412573 == 1\n\ntest_ButterworthFilterMakePeak.py:89: AssertionError\n&#34;}], &#34;audio_filters/test_ButterworthFilterMakePeak.py::Test_ButterworthFilterMakePeak::test_make_peak_with_negative_gain&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;audio_filters/test_ButterworthFilterMakePeak.py::Test_ButterworthFilterMakePeak::test_make_peak_with_negative_gain&#34;, &#34;duration&#34;: &#34;1 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;audio_filters/test_ButterworthFilterMakePeak.py::Test_ButterworthFilterMakePeak::test_make_peak_with_negative_gain&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;1 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;No log output captured.&#34;}], &#34;audio_filters/test_ButterworthFilterMakePeak.py::Test_ButterworthFilterMakePeak::test_make_peak_with_invalid_frequency&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Failed&#34;, &#34;testId&#34;: &#34;audio_filters/test_ButterworthFilterMakePeak.py::Test_ButterworthFilterMakePeak::test_make_peak_with_invalid_frequency&#34;, &#34;duration&#34;: &#34;1 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Failed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;audio_filters/test_ButterworthFilterMakePeak.py::Test_ButterworthFilterMakePeak::test_make_peak_with_invalid_frequency&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;1 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;self = &amp;lt;audio_filters.test_ButterworthFilterMakePeak.Test_ButterworthFilterMakePeak object at 0x7f333186e550&amp;gt;\n\n    @pytest.mark.regression\n    def test_make_peak_with_invalid_frequency(self):\n        # Arrange\n        frequency = 50000\n        samplerate = 48000\n        gain_db = 6\n        q_factor = 1 / sqrt(2)\n        # Act &amp;amp; Assert\n&amp;gt;       with pytest.raises(ValueError):\nE       Failed: DID NOT RAISE &amp;lt;class &amp;#x27;ValueError&amp;#x27;&amp;gt;\n\ntest_ButterworthFilterMakePeak.py:113: Failed\n&#34;}], &#34;audio_filters/test_IirFilterProcess.py::Test_IirFilterProcess::test_process_zero_sample&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;audio_filters/test_IirFilterProcess.py::Test_IirFilterProcess::test_process_zero_sample&#34;, &#34;duration&#34;: &#34;1 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;audio_filters/test_IirFilterProcess.py::Test_IirFilterProcess::test_process_zero_sample&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;1 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;No log output captured.&#34;}], &#34;audio_filters/test_IirFilterProcess.py::Test_IirFilterProcess::test_process_non_zero_sample_with_zero_history&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;audio_filters/test_IirFilterProcess.py::Test_IirFilterProcess::test_process_non_zero_sample_with_zero_history&#34;, &#34;duration&#34;: &#34;1 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;audio_filters/test_IirFilterProcess.py::Test_IirFilterProcess::test_process_non_zero_sample_with_zero_history&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;1 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;No log output captured.&#34;}], &#34;audio_filters/test_IirFilterProcess.py::Test_IirFilterProcess::test_process_non_zero_sample_with_non_zero_history&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;audio_filters/test_IirFilterProcess.py::Test_IirFilterProcess::test_process_non_zero_sample_with_non_zero_history&#34;, &#34;duration&#34;: &#34;1 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;audio_filters/test_IirFilterProcess.py::Test_IirFilterProcess::test_process_non_zero_sample_with_non_zero_history&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;1 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;No log output captured.&#34;}], &#34;audio_filters/test_IirFilterProcess.py::Test_IirFilterProcess::test_process_non_zero_sample_with_change_in_order&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;audio_filters/test_IirFilterProcess.py::Test_IirFilterProcess::test_process_non_zero_sample_with_change_in_order&#34;, &#34;duration&#34;: &#34;1 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;audio_filters/test_IirFilterProcess.py::Test_IirFilterProcess::test_process_non_zero_sample_with_change_in_order&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;1 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;No log output captured.&#34;}], &#34;audio_filters/test_IirFilterSetCoefficients.py::Test_IirFilterSetCoefficients::test_set_coefficients_valid_order[2-a_coeffs0-b_coeffs0]&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;audio_filters/test_IirFilterSetCoefficients.py::Test_IirFilterSetCoefficients::test_set_coefficients_valid_order[2-a_coeffs0-b_coeffs0]&#34;, &#34;duration&#34;: &#34;1 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;audio_filters/test_IirFilterSetCoefficients.py::Test_IirFilterSetCoefficients::test_set_coefficients_valid_order[2-a_coeffs0-b_coeffs0]&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;1 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;No log output captured.&#34;}], &#34;audio_filters/test_IirFilterSetCoefficients.py::Test_IirFilterSetCoefficients::test_set_coefficients_lesser_order[3-a_coeffs0-b_coeffs0]&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Failed&#34;, &#34;testId&#34;: &#34;audio_filters/test_IirFilterSetCoefficients.py::Test_IirFilterSetCoefficients::test_set_coefficients_lesser_order[3-a_coeffs0-b_coeffs0]&#34;, &#34;duration&#34;: &#34;1 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Failed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;audio_filters/test_IirFilterSetCoefficients.py::Test_IirFilterSetCoefficients::test_set_coefficients_lesser_order[3-a_coeffs0-b_coeffs0]&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;1 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;self = &amp;lt;audio_filters.test_IirFilterSetCoefficients.Test_IirFilterSetCoefficients object at 0x7f33318bfb10&amp;gt;\norder = 3, a_coeffs = [0.5, 0.25], b_coeffs = [1.0, 0.5, 0.25, 0.1]\n\n    @pytest.mark.parametrize(&amp;quot;order, a_coeffs, b_coeffs&amp;quot;, [(3, [0.5, 0.25], [1.0, 0.5, 0.25, 0.1])])\n    def test_set_coefficients_lesser_order(self, order, a_coeffs, b_coeffs):\n        filter = IIRFilter(order)\n&amp;gt;       filter.set_coefficients(a_coeffs, b_coeffs)\n\ntest_IirFilterSetCoefficients.py:70: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = &amp;lt;audio_filters.iir_filter.IIRFilter object at 0x7f3326514850&amp;gt;\na_coeffs = [1.0, 0.5, 0.25], b_coeffs = [1.0, 0.5, 0.25, 0.1]\n\n    def set_coefficients(self, a_coeffs: list[float], b_coeffs: list[float]) -&amp;gt; None:\n        &amp;quot;&amp;quot;&amp;quot;\n        Set the coefficients for the IIR filter. These should both be of size order + 1.\n        a_0 may be left out, and it will use 1.0 as default value.\n    \n        This method works well with scipy&amp;#x27;s filter design functions\n            &amp;gt;&amp;gt;&amp;gt; # Make a 2nd-order 1000Hz butterworth lowpass filter\n            &amp;gt;&amp;gt;&amp;gt; import scipy.signal\n            &amp;gt;&amp;gt;&amp;gt; b_coeffs, a_coeffs = scipy.signal.butter(2, 1000,\n            ...                                          btype=&amp;#x27;lowpass&amp;#x27;,\n            ...                                          fs=48000)\n            &amp;gt;&amp;gt;&amp;gt; filt = IIRFilter(2)\n            &amp;gt;&amp;gt;&amp;gt; filt.set_coefficients(a_coeffs, b_coeffs)\n        &amp;quot;&amp;quot;&amp;quot;\n        if len(a_coeffs) &amp;lt; self.order:\n            a_coeffs = [1.0, *a_coeffs]\n    \n        if len(a_coeffs) != self.order + 1:\n            msg = (\n                f&amp;quot;Expected a_coeffs to have {self.order + 1} elements &amp;quot;\n                f&amp;quot;for {self.order}-order filter, got {len(a_coeffs)}&amp;quot;\n            )\n&amp;gt;           raise ValueError(msg)\nE           ValueError: Expected a_coeffs to have 4 elements for 3-order filter, got 3\n\niir_filter.py:57: ValueError\n&#34;}], &#34;audio_filters/test_IirFilterSetCoefficients.py::Test_IirFilterSetCoefficients::test_set_coefficients_greater_order[2-a_coeffs0-b_coeffs0]&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;audio_filters/test_IirFilterSetCoefficients.py::Test_IirFilterSetCoefficients::test_set_coefficients_greater_order[2-a_coeffs0-b_coeffs0]&#34;, &#34;duration&#34;: &#34;1 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;audio_filters/test_IirFilterSetCoefficients.py::Test_IirFilterSetCoefficients::test_set_coefficients_greater_order[2-a_coeffs0-b_coeffs0]&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;1 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;No log output captured.&#34;}], &#34;audio_filters/test_IirFilterSetCoefficients.py::Test_IirFilterSetCoefficients::test_set_coefficients_invalid_order[3-a_coeffs0-b_coeffs0]&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;audio_filters/test_IirFilterSetCoefficients.py::Test_IirFilterSetCoefficients::test_set_coefficients_invalid_order[3-a_coeffs0-b_coeffs0]&#34;, &#34;duration&#34;: &#34;1 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;audio_filters/test_IirFilterSetCoefficients.py::Test_IirFilterSetCoefficients::test_set_coefficients_invalid_order[3-a_coeffs0-b_coeffs0]&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;1 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;No log output captured.&#34;}], &#34;audio_filters/test_ShowResponseGetBounds.py::Test_ShowResponseGetBounds::test_get_bounds_lower_bound&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;audio_filters/test_ShowResponseGetBounds.py::Test_ShowResponseGetBounds::test_get_bounds_lower_bound&#34;, &#34;duration&#34;: &#34;1 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;audio_filters/test_ShowResponseGetBounds.py::Test_ShowResponseGetBounds::test_get_bounds_lower_bound&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;1 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;No log output captured.&#34;}], &#34;audio_filters/test_ShowResponseGetBounds.py::Test_ShowResponseGetBounds::test_get_bounds_upper_bound&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;audio_filters/test_ShowResponseGetBounds.py::Test_ShowResponseGetBounds::test_get_bounds_upper_bound&#34;, &#34;duration&#34;: &#34;1 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;audio_filters/test_ShowResponseGetBounds.py::Test_ShowResponseGetBounds::test_get_bounds_upper_bound&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;1 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;No log output captured.&#34;}], &#34;audio_filters/test_ShowResponseGetBounds.py::Test_ShowResponseGetBounds::test_get_bounds_all_values_same&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Failed&#34;, &#34;testId&#34;: &#34;audio_filters/test_ShowResponseGetBounds.py::Test_ShowResponseGetBounds::test_get_bounds_all_values_same&#34;, &#34;duration&#34;: &#34;1 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Failed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;audio_filters/test_ShowResponseGetBounds.py::Test_ShowResponseGetBounds::test_get_bounds_all_values_same&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;1 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;self = &amp;lt;audio_filters.test_ShowResponseGetBounds.Test_ShowResponseGetBounds object at 0x7f33267aa9d0&amp;gt;\n\n    @pytest.mark.edge\n    def test_get_bounds_all_values_same(self):\n        fft_results = np.full((1000,), -20.0)\n        samplerate = 1000\n        bounds = get_bounds(fft_results, samplerate)\n&amp;gt;       assert bounds == (-20.0, -20.0)\nE       assert (-20, 20) == (-20.0, -20.0)\nE         \nE         At index 1 diff: 20 != -20.0\nE         \nE         Full diff:\nE           (\nE         -     -20.0,\nE         ?        --\nE         +     -20,\nE         -     -20.0,\nE         ?     -  --\nE         +     20,\nE           )\n\ntest_ShowResponseGetBounds.py:86: AssertionError\n&#34;}], &#34;audio_filters/test_ShowResponseGetBounds.py::Test_ShowResponseGetBounds::test_get_bounds_values_greater_than_20&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Failed&#34;, &#34;testId&#34;: &#34;audio_filters/test_ShowResponseGetBounds.py::Test_ShowResponseGetBounds::test_get_bounds_values_greater_than_20&#34;, &#34;duration&#34;: &#34;1 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Failed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;audio_filters/test_ShowResponseGetBounds.py::Test_ShowResponseGetBounds::test_get_bounds_values_greater_than_20&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;1 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;self = &amp;lt;audio_filters.test_ShowResponseGetBounds.Test_ShowResponseGetBounds object at 0x7f33267aafd0&amp;gt;\n\n    @pytest.mark.edge\n    def test_get_bounds_values_greater_than_20(self):\n        fft_results = np.linspace(21.0, 40.0, 1000)\n        samplerate = 1000\n        bounds = get_bounds(fft_results, samplerate)\n&amp;gt;       assert bounds == (21.0, 40.0)\nE       assert (-20, 30.471471471471475) == (21.0, 40.0)\nE         \nE         At index 0 diff: -20 != 21.0\nE         \nE         Full diff:\nE           (\nE         -     21.0,\nE         ?      --\nE         +     -20,\nE         ?     +\nE         -     40.0,\nE         +     30.471471471471475,\nE           )\n\ntest_ShowResponseGetBounds.py:93: AssertionError\n&#34;}], &#34;audio_filters/test_ShowResponseShowFrequencyResponse.py::Test_ShowResponseShowFrequencyResponse::test_show_frequency_response_correctness&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;audio_filters/test_ShowResponseShowFrequencyResponse.py::Test_ShowResponseShowFrequencyResponse::test_show_frequency_response_correctness&#34;, &#34;duration&#34;: &#34;34 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;audio_filters/test_ShowResponseShowFrequencyResponse.py::Test_ShowResponseShowFrequencyResponse::test_show_frequency_response_correctness&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;34 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;No log output captured.&#34;}], &#34;audio_filters/test_ShowResponseShowFrequencyResponse.py::Test_ShowResponseShowFrequencyResponse::test_show_frequency_response_small_sample_rate&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;audio_filters/test_ShowResponseShowFrequencyResponse.py::Test_ShowResponseShowFrequencyResponse::test_show_frequency_response_small_sample_rate&#34;, &#34;duration&#34;: &#34;4 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;audio_filters/test_ShowResponseShowFrequencyResponse.py::Test_ShowResponseShowFrequencyResponse::test_show_frequency_response_small_sample_rate&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;4 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;No log output captured.&#34;}], &#34;audio_filters/test_ShowResponseShowFrequencyResponse.py::Test_ShowResponseShowFrequencyResponse::test_show_frequency_response_large_sample_rate&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;audio_filters/test_ShowResponseShowFrequencyResponse.py::Test_ShowResponseShowFrequencyResponse::test_show_frequency_response_large_sample_rate&#34;, &#34;duration&#34;: &#34;283 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;audio_filters/test_ShowResponseShowFrequencyResponse.py::Test_ShowResponseShowFrequencyResponse::test_show_frequency_response_large_sample_rate&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;283 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;No log output captured.&#34;}], &#34;audio_filters/test_ShowResponseShowFrequencyResponse.py::Test_ShowResponseShowFrequencyResponse::test_show_frequency_response_different_filters&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;audio_filters/test_ShowResponseShowFrequencyResponse.py::Test_ShowResponseShowFrequencyResponse::test_show_frequency_response_different_filters&#34;, &#34;duration&#34;: &#34;19 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;audio_filters/test_ShowResponseShowFrequencyResponse.py::Test_ShowResponseShowFrequencyResponse::test_show_frequency_response_different_filters&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;19 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;No log output captured.&#34;}], &#34;audio_filters/test_ShowResponseShowFrequencyResponse.py::Test_ShowResponseShowFrequencyResponse::test_show_frequency_response_zero_padding&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;audio_filters/test_ShowResponseShowFrequencyResponse.py::Test_ShowResponseShowFrequencyResponse::test_show_frequency_response_zero_padding&#34;, &#34;duration&#34;: &#34;4 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;audio_filters/test_ShowResponseShowFrequencyResponse.py::Test_ShowResponseShowFrequencyResponse::test_show_frequency_response_zero_padding&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;4 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;No log output captured.&#34;}], &#34;audio_filters/test_ShowResponseShowPhaseResponse.py::Test_ShowResponseShowPhaseResponse::test_show_phase_response_small_sample_rate&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Failed&#34;, &#34;testId&#34;: &#34;audio_filters/test_ShowResponseShowPhaseResponse.py::Test_ShowResponseShowPhaseResponse::test_show_phase_response_small_sample_rate&#34;, &#34;duration&#34;: &#34;4 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Failed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;audio_filters/test_ShowResponseShowPhaseResponse.py::Test_ShowResponseShowPhaseResponse::test_show_phase_response_small_sample_rate&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;4 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;self = &amp;lt;audio_filters.test_ShowResponseShowPhaseResponse.Test_ShowResponseShowPhaseResponse object at 0x7f33267ab490&amp;gt;\n\n    @pytest.mark.regression\n    def test_show_phase_response_small_sample_rate(self):\n        filt = IIRFilter(4)\n        small_sample_rate = 100\n        # TODO: Replace with the appropriate way to capture matplotlib plots\n&amp;gt;       with pytest.raises(Exception):\nE       Failed: DID NOT RAISE &amp;lt;class &amp;#x27;Exception&amp;#x27;&amp;gt;\n\ntest_ShowResponseShowPhaseResponse.py:66: Failed\n&#34;}], &#34;audio_filters/test_ShowResponseShowPhaseResponse.py::Test_ShowResponseShowPhaseResponse::test_show_phase_response_large_sample_rate&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Failed&#34;, &#34;testId&#34;: &#34;audio_filters/test_ShowResponseShowPhaseResponse.py::Test_ShowResponseShowPhaseResponse::test_show_phase_response_large_sample_rate&#34;, &#34;duration&#34;: &#34;43 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Failed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;audio_filters/test_ShowResponseShowPhaseResponse.py::Test_ShowResponseShowPhaseResponse::test_show_phase_response_large_sample_rate&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;43 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;self = &amp;lt;audio_filters.test_ShowResponseShowPhaseResponse.Test_ShowResponseShowPhaseResponse object at 0x7f33267abe10&amp;gt;\n\n    @pytest.mark.regression\n    def test_show_phase_response_large_sample_rate(self):\n        filt = IIRFilter(4)\n        large_sample_rate = 100000\n        # TODO: Replace with the appropriate way to capture matplotlib plots\n&amp;gt;       with pytest.raises(Exception):\nE       Failed: DID NOT RAISE &amp;lt;class &amp;#x27;Exception&amp;#x27;&amp;gt;\n\ntest_ShowResponseShowPhaseResponse.py:75: Failed\n&#34;}], &#34;audio_filters/test_ShowResponseShowPhaseResponse.py::Test_ShowResponseShowPhaseResponse::test_show_phase_response_zero_sample_rate&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Failed&#34;, &#34;testId&#34;: &#34;audio_filters/test_ShowResponseShowPhaseResponse.py::Test_ShowResponseShowPhaseResponse::test_show_phase_response_zero_sample_rate&#34;, &#34;duration&#34;: &#34;4 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Failed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;audio_filters/test_ShowResponseShowPhaseResponse.py::Test_ShowResponseShowPhaseResponse::test_show_phase_response_zero_sample_rate&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;4 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;self = &amp;lt;audio_filters.test_ShowResponseShowPhaseResponse.Test_ShowResponseShowPhaseResponse object at 0x7f33267aa610&amp;gt;\n\n    @pytest.mark.negative\n    def test_show_phase_response_zero_sample_rate(self):\n        filt = IIRFilter(4)\n        zero_sample_rate = 0\n&amp;gt;       with pytest.raises(ValueError):\nE       Failed: DID NOT RAISE &amp;lt;class &amp;#x27;ValueError&amp;#x27;&amp;gt;\n\ntest_ShowResponseShowPhaseResponse.py:83: Failed\n&#34;}]}, &#34;renderCollapsed&#34;: [&#34;passed&#34;], &#34;initialSort&#34;: &#34;result&#34;, &#34;title&#34;: &#34;index.html&#34;}"></div>
+    <script>
+      (function(){function r(e,n,t){function o(i,f){if(!n[i]){if(!e[i]){var c="function"==typeof require&&require;if(!f&&c)return c(i,!0);if(u)return u(i,!0);var a=new Error("Cannot find module '"+i+"'");throw a.code="MODULE_NOT_FOUND",a}var p=n[i]={exports:{}};e[i][0].call(p.exports,function(r){var n=e[i][1][r];return o(n||r)},p,p.exports,r,e,n,t)}return n[i].exports}for(var u="function"==typeof require&&require,i=0;i<t.length;i++)o(t[i]);return o}return r})()({1:[function(require,module,exports){
+const { getCollapsedCategory, setCollapsedIds } = require('./storage.js')
+
+class DataManager {
+    setManager(data) {
+        const collapsedCategories = [...getCollapsedCategory(data.renderCollapsed)]
+        const collapsedIds = []
+        const tests = Object.values(data.tests).flat().map((test, index) => {
+            const collapsed = collapsedCategories.includes(test.result.toLowerCase())
+            const id = `test_${index}`
+            if (collapsed) {
+                collapsedIds.push(id)
+            }
+            return {
+                ...test,
+                id,
+                collapsed,
+            }
+        })
+        const dataBlob = { ...data, tests }
+        this.data = { ...dataBlob }
+        this.renderData = { ...dataBlob }
+        setCollapsedIds(collapsedIds)
+    }
+
+    get allData() {
+        return { ...this.data }
+    }
+
+    resetRender() {
+        this.renderData = { ...this.data }
+    }
+
+    setRender(data) {
+        this.renderData.tests = [...data]
+    }
+
+    toggleCollapsedItem(id) {
+        this.renderData.tests = this.renderData.tests.map((test) =>
+            test.id === id ? { ...test, collapsed: !test.collapsed } : test,
+        )
+    }
+
+    set allCollapsed(collapsed) {
+        this.renderData = { ...this.renderData, tests: [...this.renderData.tests.map((test) => (
+            { ...test, collapsed }
+        ))] }
+    }
+
+    get testSubset() {
+        return [...this.renderData.tests]
+    }
+
+    get environment() {
+        return this.renderData.environment
+    }
+
+    get initialSort() {
+        return this.data.initialSort
+    }
+}
+
+module.exports = {
+    manager: new DataManager(),
+}
+
+},{"./storage.js":8}],2:[function(require,module,exports){
+const mediaViewer = require('./mediaviewer.js')
+const templateEnvRow = document.getElementById('template_environment_row')
+const templateResult = document.getElementById('template_results-table__tbody')
+
+function htmlToElements(html) {
+    const temp = document.createElement('template')
+    temp.innerHTML = html
+    return temp.content.childNodes
+}
+
+const find = (selector, elem) => {
+    if (!elem) {
+        elem = document
+    }
+    return elem.querySelector(selector)
+}
+
+const findAll = (selector, elem) => {
+    if (!elem) {
+        elem = document
+    }
+    return [...elem.querySelectorAll(selector)]
+}
+
+const dom = {
+    getStaticRow: (key, value) => {
+        const envRow = templateEnvRow.content.cloneNode(true)
+        const isObj = typeof value === 'object' && value !== null
+        const values = isObj ? Object.keys(value).map((k) => `${k}: ${value[k]}`) : null
+
+        const valuesElement = htmlToElements(
+            values ? `<ul>${values.map((val) => `<li>${val}</li>`).join('')}<ul>` : `<div>${value}</div>`)[0]
+        const td = findAll('td', envRow)
+        td[0].textContent = key
+        td[1].appendChild(valuesElement)
+
+        return envRow
+    },
+    getResultTBody: ({ testId, id, log, extras, resultsTableRow, tableHtml, result, collapsed }) => {
+        const resultBody = templateResult.content.cloneNode(true)
+        resultBody.querySelector('tbody').classList.add(result.toLowerCase())
+        resultBody.querySelector('tbody').id = testId
+        resultBody.querySelector('.collapsible').dataset.id = id
+
+        resultsTableRow.forEach((html) => {
+            const t = document.createElement('template')
+            t.innerHTML = html
+            resultBody.querySelector('.collapsible').appendChild(t.content)
+        })
+
+        if (log) {
+            // Wrap lines starting with "E" with span.error to color those lines red
+            const wrappedLog = log.replace(/^E.*$/gm, (match) => `<span class="error">${match}</span>`)
+            resultBody.querySelector('.log').innerHTML = wrappedLog
+        } else {
+            resultBody.querySelector('.log').remove()
+        }
+
+        if (collapsed) {
+            resultBody.querySelector('.collapsible > td')?.classList.add('collapsed')
+            resultBody.querySelector('.extras-row').classList.add('hidden')
+        } else {
+            resultBody.querySelector('.collapsible > td')?.classList.remove('collapsed')
+        }
+
+        const media = []
+        extras?.forEach(({ name, format_type, content }) => {
+            if (['image', 'video'].includes(format_type)) {
+                media.push({ path: content, name, format_type })
+            }
+
+            if (format_type === 'html') {
+                resultBody.querySelector('.extraHTML').insertAdjacentHTML('beforeend', `<div>${content}</div>`)
+            }
+        })
+        mediaViewer.setup(resultBody, media)
+
+        // Add custom html from the pytest_html_results_table_html hook
+        tableHtml?.forEach((item) => {
+            resultBody.querySelector('td[class="extra"]').insertAdjacentHTML('beforeend', item)
+        })
+
+        return resultBody
+    },
+}
+
+module.exports = {
+    dom,
+    htmlToElements,
+    find,
+    findAll,
+}
+
+},{"./mediaviewer.js":6}],3:[function(require,module,exports){
+const { manager } = require('./datamanager.js')
+const { doSort } = require('./sort.js')
+const storageModule = require('./storage.js')
+
+const getFilteredSubSet = (filter) =>
+    manager.allData.tests.filter(({ result }) => filter.includes(result.toLowerCase()))
+
+const doInitFilter = () => {
+    const currentFilter = storageModule.getVisible()
+    const filteredSubset = getFilteredSubSet(currentFilter)
+    manager.setRender(filteredSubset)
+}
+
+const doFilter = (type, show) => {
+    if (show) {
+        storageModule.showCategory(type)
+    } else {
+        storageModule.hideCategory(type)
+    }
+
+    const currentFilter = storageModule.getVisible()
+    const filteredSubset = getFilteredSubSet(currentFilter)
+    manager.setRender(filteredSubset)
+
+    const sortColumn = storageModule.getSort()
+    doSort(sortColumn, true)
+}
+
+module.exports = {
+    doFilter,
+    doInitFilter,
+}
+
+},{"./datamanager.js":1,"./sort.js":7,"./storage.js":8}],4:[function(require,module,exports){
+const { redraw, bindEvents, renderStatic } = require('./main.js')
+const { doInitFilter } = require('./filter.js')
+const { doInitSort } = require('./sort.js')
+const { manager } = require('./datamanager.js')
+const data = JSON.parse(document.getElementById('data-container').dataset.jsonblob)
+
+function init() {
+    manager.setManager(data)
+    doInitFilter()
+    doInitSort()
+    renderStatic()
+    redraw()
+    bindEvents()
+}
+
+init()
+
+},{"./datamanager.js":1,"./filter.js":3,"./main.js":5,"./sort.js":7}],5:[function(require,module,exports){
+const { dom, find, findAll } = require('./dom.js')
+const { manager } = require('./datamanager.js')
+const { doSort } = require('./sort.js')
+const { doFilter } = require('./filter.js')
+const {
+    getVisible,
+    getCollapsedIds,
+    setCollapsedIds,
+    getSort,
+    getSortDirection,
+    possibleFilters,
+} = require('./storage.js')
+
+const removeChildren = (node) => {
+    while (node.firstChild) {
+        node.removeChild(node.firstChild)
+    }
+}
+
+const renderStatic = () => {
+    const renderEnvironmentTable = () => {
+        const environment = manager.environment
+        const rows = Object.keys(environment).map((key) => dom.getStaticRow(key, environment[key]))
+        const table = document.getElementById('environment')
+        removeChildren(table)
+        rows.forEach((row) => table.appendChild(row))
+    }
+    renderEnvironmentTable()
+}
+
+const addItemToggleListener = (elem) => {
+    elem.addEventListener('click', ({ target }) => {
+        const id = target.parentElement.dataset.id
+        manager.toggleCollapsedItem(id)
+
+        const collapsedIds = getCollapsedIds()
+        if (collapsedIds.includes(id)) {
+            const updated = collapsedIds.filter((item) => item !== id)
+            setCollapsedIds(updated)
+        } else {
+            collapsedIds.push(id)
+            setCollapsedIds(collapsedIds)
+        }
+        redraw()
+    })
+}
+
+const renderContent = (tests) => {
+    const sortAttr = getSort(manager.initialSort)
+    const sortAsc = JSON.parse(getSortDirection())
+    const rows = tests.map(dom.getResultTBody)
+    const table = document.getElementById('results-table')
+    const tableHeader = document.getElementById('results-table-head')
+
+    const newTable = document.createElement('table')
+    newTable.id = 'results-table'
+
+    // remove all sorting classes and set the relevant
+    findAll('.sortable', tableHeader).forEach((elem) => elem.classList.remove('asc', 'desc'))
+    tableHeader.querySelector(`.sortable[data-column-type="${sortAttr}"]`)?.classList.add(sortAsc ? 'desc' : 'asc')
+    newTable.appendChild(tableHeader)
+
+    if (!rows.length) {
+        const emptyTable = document.getElementById('template_results-table__body--empty').content.cloneNode(true)
+        newTable.appendChild(emptyTable)
+    } else {
+        rows.forEach((row) => {
+            if (!!row) {
+                findAll('.collapsible td:not(.col-links', row).forEach(addItemToggleListener)
+                find('.logexpander', row).addEventListener('click',
+                    (evt) => evt.target.parentNode.classList.toggle('expanded'),
+                )
+                newTable.appendChild(row)
+            }
+        })
+    }
+
+    table.replaceWith(newTable)
+}
+
+const renderDerived = () => {
+    const currentFilter = getVisible()
+    possibleFilters.forEach((result) => {
+        const input = document.querySelector(`input[data-test-result="${result}"]`)
+        input.checked = currentFilter.includes(result)
+    })
+}
+
+const bindEvents = () => {
+    const filterColumn = (evt) => {
+        const { target: element } = evt
+        const { testResult } = element.dataset
+
+        doFilter(testResult, element.checked)
+        const collapsedIds = getCollapsedIds()
+        const updated = manager.renderData.tests.map((test) => {
+            return {
+                ...test,
+                collapsed: collapsedIds.includes(test.id),
+            }
+        })
+        manager.setRender(updated)
+        redraw()
+    }
+
+    const header = document.getElementById('environment-header')
+    header.addEventListener('click', () => {
+        const table = document.getElementById('environment')
+        table.classList.toggle('hidden')
+        header.classList.toggle('collapsed')
+    })
+
+    findAll('input[name="filter_checkbox"]').forEach((elem) => {
+        elem.addEventListener('click', filterColumn)
+    })
+
+    findAll('.sortable').forEach((elem) => {
+        elem.addEventListener('click', (evt) => {
+            const { target: element } = evt
+            const { columnType } = element.dataset
+            doSort(columnType)
+            redraw()
+        })
+    })
+
+    document.getElementById('show_all_details').addEventListener('click', () => {
+        manager.allCollapsed = false
+        setCollapsedIds([])
+        redraw()
+    })
+    document.getElementById('hide_all_details').addEventListener('click', () => {
+        manager.allCollapsed = true
+        const allIds = manager.renderData.tests.map((test) => test.id)
+        setCollapsedIds(allIds)
+        redraw()
+    })
+}
+
+const redraw = () => {
+    const { testSubset } = manager
+
+    renderContent(testSubset)
+    renderDerived()
+}
+
+module.exports = {
+    redraw,
+    bindEvents,
+    renderStatic,
+}
+
+},{"./datamanager.js":1,"./dom.js":2,"./filter.js":3,"./sort.js":7,"./storage.js":8}],6:[function(require,module,exports){
+class MediaViewer {
+    constructor(assets) {
+        this.assets = assets
+        this.index = 0
+    }
+
+    nextActive() {
+        this.index = this.index === this.assets.length - 1 ? 0 : this.index + 1
+        return [this.activeFile, this.index]
+    }
+
+    prevActive() {
+        this.index = this.index === 0 ? this.assets.length - 1 : this.index -1
+        return [this.activeFile, this.index]
+    }
+
+    get currentIndex() {
+        return this.index
+    }
+
+    get activeFile() {
+        return this.assets[this.index]
+    }
+}
+
+
+const setup = (resultBody, assets) => {
+    if (!assets.length) {
+        resultBody.querySelector('.media').classList.add('hidden')
+        return
+    }
+
+    const mediaViewer = new MediaViewer(assets)
+    const container = resultBody.querySelector('.media-container')
+    const leftArrow = resultBody.querySelector('.media-container__nav--left')
+    const rightArrow = resultBody.querySelector('.media-container__nav--right')
+    const mediaName = resultBody.querySelector('.media__name')
+    const counter = resultBody.querySelector('.media__counter')
+    const imageEl = resultBody.querySelector('img')
+    const sourceEl = resultBody.querySelector('source')
+    const videoEl = resultBody.querySelector('video')
+
+    const setImg = (media, index) => {
+        if (media?.format_type === 'image') {
+            imageEl.src = media.path
+
+            imageEl.classList.remove('hidden')
+            videoEl.classList.add('hidden')
+        } else if (media?.format_type === 'video') {
+            sourceEl.src = media.path
+
+            videoEl.classList.remove('hidden')
+            imageEl.classList.add('hidden')
+        }
+
+        mediaName.innerText = media?.name
+        counter.innerText = `${index + 1} / ${assets.length}`
+    }
+    setImg(mediaViewer.activeFile, mediaViewer.currentIndex)
+
+    const moveLeft = () => {
+        const [media, index] = mediaViewer.prevActive()
+        setImg(media, index)
+    }
+    const doRight = () => {
+        const [media, index] = mediaViewer.nextActive()
+        setImg(media, index)
+    }
+    const openImg = () => {
+        window.open(mediaViewer.activeFile.path, '_blank')
+    }
+    if (assets.length === 1) {
+        container.classList.add('media-container--fullscreen')
+    } else {
+        leftArrow.addEventListener('click', moveLeft)
+        rightArrow.addEventListener('click', doRight)
+    }
+    imageEl.addEventListener('click', openImg)
+}
+
+module.exports = {
+    setup,
+}
+
+},{}],7:[function(require,module,exports){
+const { manager } = require('./datamanager.js')
+const storageModule = require('./storage.js')
+
+const genericSort = (list, key, ascending, customOrder) => {
+    let sorted
+    if (customOrder) {
+        sorted = list.sort((a, b) => {
+            const aValue = a.result.toLowerCase()
+            const bValue = b.result.toLowerCase()
+
+            const aIndex = customOrder.findIndex((item) => item.toLowerCase() === aValue)
+            const bIndex = customOrder.findIndex((item) => item.toLowerCase() === bValue)
+
+            // Compare the indices to determine the sort order
+            return aIndex - bIndex
+        })
+    } else {
+        sorted = list.sort((a, b) => a[key] === b[key] ? 0 : a[key] > b[key] ? 1 : -1)
+    }
+
+    if (ascending) {
+        sorted.reverse()
+    }
+    return sorted
+}
+
+const durationSort = (list, ascending) => {
+    const parseDuration = (duration) => {
+        if (duration.includes(':')) {
+            // If it's in the format "HH:mm:ss"
+            const [hours, minutes, seconds] = duration.split(':').map(Number)
+            return (hours * 3600 + minutes * 60 + seconds) * 1000
+        } else {
+            // If it's in the format "nnn ms"
+            return parseInt(duration)
+        }
+    }
+    const sorted = list.sort((a, b) => parseDuration(a['duration']) - parseDuration(b['duration']))
+    if (ascending) {
+        sorted.reverse()
+    }
+    return sorted
+}
+
+const doInitSort = () => {
+    const type = storageModule.getSort(manager.initialSort)
+    const ascending = storageModule.getSortDirection()
+    const list = manager.testSubset
+    const initialOrder = ['Error', 'Failed', 'Rerun', 'XFailed', 'XPassed', 'Skipped', 'Passed']
+
+    storageModule.setSort(type)
+    storageModule.setSortDirection(ascending)
+
+    if (type?.toLowerCase() === 'original') {
+        manager.setRender(list)
+    } else {
+        let sortedList
+        switch (type) {
+        case 'duration':
+            sortedList = durationSort(list, ascending)
+            break
+        case 'result':
+            sortedList = genericSort(list, type, ascending, initialOrder)
+            break
+        default:
+            sortedList = genericSort(list, type, ascending)
+            break
+        }
+        manager.setRender(sortedList)
+    }
+}
+
+const doSort = (type, skipDirection) => {
+    const newSortType = storageModule.getSort(manager.initialSort) !== type
+    const currentAsc = storageModule.getSortDirection()
+    let ascending
+    if (skipDirection) {
+        ascending = currentAsc
+    } else {
+        ascending = newSortType ? false : !currentAsc
+    }
+    storageModule.setSort(type)
+    storageModule.setSortDirection(ascending)
+
+    const list = manager.testSubset
+    const sortedList = type === 'duration' ? durationSort(list, ascending) : genericSort(list, type, ascending)
+    manager.setRender(sortedList)
+}
+
+module.exports = {
+    doInitSort,
+    doSort,
+}
+
+},{"./datamanager.js":1,"./storage.js":8}],8:[function(require,module,exports){
+const possibleFilters = [
+    'passed',
+    'skipped',
+    'failed',
+    'error',
+    'xfailed',
+    'xpassed',
+    'rerun',
+]
+
+const getVisible = () => {
+    const url = new URL(window.location.href)
+    const settings = new URLSearchParams(url.search).get('visible')
+    const lower = (item) => {
+        const lowerItem = item.toLowerCase()
+        if (possibleFilters.includes(lowerItem)) {
+            return lowerItem
+        }
+        return null
+    }
+    return settings === null ?
+        possibleFilters :
+        [...new Set(settings?.split(',').map(lower).filter((item) => item))]
+}
+
+const hideCategory = (categoryToHide) => {
+    const url = new URL(window.location.href)
+    const visibleParams = new URLSearchParams(url.search).get('visible')
+    const currentVisible = visibleParams ? visibleParams.split(',') : [...possibleFilters]
+    const settings = [...new Set(currentVisible)].filter((f) => f !== categoryToHide).join(',')
+
+    url.searchParams.set('visible', settings)
+    window.history.pushState({}, null, unescape(url.href))
+}
+
+const showCategory = (categoryToShow) => {
+    if (typeof window === 'undefined') {
+        return
+    }
+    const url = new URL(window.location.href)
+    const currentVisible = new URLSearchParams(url.search).get('visible')?.split(',').filter(Boolean) ||
+        [...possibleFilters]
+    const settings = [...new Set([categoryToShow, ...currentVisible])]
+    const noFilter = possibleFilters.length === settings.length || !settings.length
+
+    noFilter ? url.searchParams.delete('visible') : url.searchParams.set('visible', settings.join(','))
+    window.history.pushState({}, null, unescape(url.href))
+}
+
+const getSort = (initialSort) => {
+    const url = new URL(window.location.href)
+    let sort = new URLSearchParams(url.search).get('sort')
+    if (!sort) {
+        sort = initialSort || 'result'
+    }
+    return sort
+}
+
+const setSort = (type) => {
+    const url = new URL(window.location.href)
+    url.searchParams.set('sort', type)
+    window.history.pushState({}, null, unescape(url.href))
+}
+
+const getCollapsedCategory = (renderCollapsed) => {
+    let categories
+    if (typeof window !== 'undefined') {
+        const url = new URL(window.location.href)
+        const collapsedItems = new URLSearchParams(url.search).get('collapsed')
+        switch (true) {
+        case !renderCollapsed && collapsedItems === null:
+            categories = ['passed']
+            break
+        case collapsedItems?.length === 0 || /^["']{2}$/.test(collapsedItems):
+            categories = []
+            break
+        case /^all$/.test(collapsedItems) || collapsedItems === null && /^all$/.test(renderCollapsed):
+            categories = [...possibleFilters]
+            break
+        default:
+            categories = collapsedItems?.split(',').map((item) => item.toLowerCase()) || renderCollapsed
+            break
+        }
+    } else {
+        categories = []
+    }
+    return categories
+}
+
+const getSortDirection = () => JSON.parse(sessionStorage.getItem('sortAsc')) || false
+const setSortDirection = (ascending) => sessionStorage.setItem('sortAsc', ascending)
+
+const getCollapsedIds = () => JSON.parse(sessionStorage.getItem('collapsedIds')) || []
+const setCollapsedIds = (list) => sessionStorage.setItem('collapsedIds', JSON.stringify(list))
+
+module.exports = {
+    getVisible,
+    hideCategory,
+    showCategory,
+    getCollapsedIds,
+    setCollapsedIds,
+    getSort,
+    setSort,
+    getSortDirection,
+    setSortDirection,
+    getCollapsedCategory,
+    possibleFilters,
+}
+
+},{}]},{},[4]);
+    </script>
+  </footer>
+</html>
